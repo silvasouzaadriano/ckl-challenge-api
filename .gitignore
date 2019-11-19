@@ -1,0 +1,14 @@
+node_modules/
+.env
+
+temp/uploads/*
+
+!temp/uploads/.gitkeep
+!temp/uploads/example
+
+backend/temp/uploads/*
+
+!temp/uploads/.gitkeep
+!temp/uploads/example
+
+backend/temp/uploads/*
