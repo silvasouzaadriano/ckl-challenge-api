@@ -33,6 +33,8 @@ routes.post('/sessions', authCreateSession, SessionController.store);
 
 // routes.use(authMiddleware);
 
+routes.get('/', (req, res) => res.send('ok'));
+
 /* USER */
 routes.put('/users', updateUser, UserController.update);
 routes.get('/users', UserController.index);
