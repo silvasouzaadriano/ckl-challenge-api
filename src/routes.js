@@ -35,7 +35,11 @@ routes.post('/sessions', authCreateSession, SessionController.store);
 
 routes.get('/', (req, res) =>
   res.send(
-    'These are the API URLs: \n \n 1) Users - <http://167.172.254.115/users> \n 2) Files - <http://167.172.254.115/files> \n 3) Interests - <http://167.172.254.115/interests> \n 4) News - http://167.172.254.115/news'
+    'These are the API URLs: \n
+    1) Users - <http://167.172.254.115/users> \n
+    2) Files - <http://167.172.254.115/files> \n
+    3) Interests - <http://167.172.254.115/interests> \n
+    4) News - <http://167.172.254.115/news>'
   )
 );
 
