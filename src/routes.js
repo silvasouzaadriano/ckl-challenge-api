@@ -33,7 +33,11 @@ routes.post('/sessions', authCreateSession, SessionController.store);
 
 // routes.use(authMiddleware);
 
-routes.get('/', (req, res) => res.send('ok'));
+routes.get('/', (req, res) =>
+  res.send(
+    'These are the URLs: \n 1) Users - http://167.172.254.115/users \n 2) Users - http://167.172.254.115/files'
+  )
+);
 
 /* USER */
 routes.put('/users', updateUser, UserController.update);
