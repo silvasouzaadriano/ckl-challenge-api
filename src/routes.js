@@ -37,7 +37,7 @@ routes.get('/', (req, res) =>
   res.json({
     Users: 'http://167.172.254.115/users',
     Files: 'http://167.172.254.115/files',
-    Interests: '<http://167.172.254.115/interests',
+    Interests: 'http://167.172.254.115/interests',
     News: 'http://167.172.254.115/news',
   })
 );
