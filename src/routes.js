@@ -34,7 +34,7 @@ routes.post('/sessions', authCreateSession, SessionController.store);
 // routes.use(authMiddleware);
 
 routes.get('/', (req, res) =>
-  res.links({
+  res.json({
     Users: 'http://167.172.254.115/users',
     Files: 'http://167.172.254.115/files',
     Interests: '<http://167.172.254.115/interests',
